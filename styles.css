@@ -1,0 +1,160 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #38844d;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 0;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    position: absolute;
+    top: 5%;
+    transform: translateY(-50%);
+    right: 20px;
+  }
+  
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+}
+
+#news article {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+#news h2 {
+    margin-bottom: 0.5rem;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pagination li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#pagination button {
+    background: #35424a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+#pagination button:hover {
+    background: #e8491d;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #35424a;
+    color: #fff;
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 4;
+    top: 4;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+header #branding {
+    float: left;
+    margin-right: auto;
+  }
+  
+  header #branding h1 {
+    margin: 0;
+    padding: 0 20px;
+  }
+  
